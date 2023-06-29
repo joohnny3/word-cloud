@@ -1,4 +1,4 @@
 # wordCloud
-<div align="center">  
+<div align="left">  
 <img src="wordcloud.png">
 </div>
