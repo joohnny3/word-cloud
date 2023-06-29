@@ -31,7 +31,7 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 
 # lower max_font_size
-wordcloud = WordCloud(background_color='white', max_font_size=40, color_func=color_func).generate(text)
+wordcloud = WordCloud(background_color='white', max_font_size=32, color_func=color_func).generate(text)
 wordcloud.to_file(path.join(d, 'wordcloud.png'))
 plt.figure()
 plt.imshow(wordcloud, interpolation="bilinear")
